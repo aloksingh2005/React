@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- offline.html -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Offline</h1>
+    <p>You are currently offline.</p>
+    <button onclick="reloadPage()">Refresh</button>
+
+    <script>
+        function reloadPage() {
+            window.location.reload(true);
+        }
+    </script>
+</body>
+
+</html>
